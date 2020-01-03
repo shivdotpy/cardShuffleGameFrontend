@@ -45,6 +45,7 @@ function App() {
 				const matchedIdsCopy = [ ...matchedIds ];
 				matchedIdsCopy.push(cardId);
 				setMetchedIds(matchedIdsCopy);
+				setOpenCardId('');
 			} else {
 				if (openCardId) {
 					setTimeout(() => {
@@ -89,6 +90,7 @@ function App() {
 				const matchedIdsCopy = [ ...matchedIds ];
 				matchedIdsCopy.push(cardId);
 				setMetchedIds(matchedIdsCopy);
+				setOpenCardId('');
 			} else {
 				if (openCardId) {
 					setTimeout(() => {
